@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* Primera Sesion */
+
+.titulo{
+    font-size: 24px;
+    color: #431507;
+}
+
+.navegacion{
+    background-color: #ffeed5;
+    padding: 10px;
+}
+
+
+
+.navbar{
+    display: flex;
+ }
+
+ul{
+    display: flex;
+}
+
+.navbar-left, .navbar-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-link{
+    font-size: 18px;
+    margin-right: 20px;
+    color: #431507;
+
+}
+
+
+.mierdon{
+    width: 480px;
+    border-radius: 20px;
+    box-shadow: 07px 5px 5px rgb(117, 117, 117);
+  
+
+}
+
+
+
+.titulo-dos {
+    color: #431507;
+    font-size: 48x;
+    font-weight: bolder;
+}
+
+#contenedor-uno{
+    background-color: #ffeed5;
+    display: flex;
+    margin: 50px;
+
+}
+
+.contenedor-der{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.contenedor-izq{
+display: flex;
+margin-left: 350px;
+align-items: center;
+width: 100%;
+
+}
+
+.boton{
+    background-color: #e95d0d;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    border: none;
+}
+
+.cta h1, p{
+    margin-bottom: 20px;
+}
+
+
+
+/* Segunda Sesion */
+
+
+.contenedor-dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 20px 0px;
+    background-color: #fff7ed;
+}
+
+.cajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajas p{
+    display: flex;
+    justify-content: center;
+   margin-right: 50px;
+}
+
+.cacota{
+    border: 3px solid #e95d0d;
+    border-radius: 10px;
+}
+
+.caja{
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+/* Tercera Sesion */
+
+
+.contenedor-tres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcb86a;
+    padding: 100px 0px 100px 0px;
+    color: #431507;
+    font-size: 36px;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Cuarta Sesion */
+
+.contenedor-cuatro{
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff7ed;
+    color: #fff;
+}
+
+.llamada-a-la-accion{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e95d0d;
+    width: 1280px;
+    height: 367px;
+    border-radius: 20px;
+}
+
+.caja-cta-uno, .caja-cta-dos{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-dos{
+    background-color: #e95d0d;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffeed5;
+}
